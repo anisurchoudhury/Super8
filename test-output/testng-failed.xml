@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="firefoxtest(failed)">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="com.codepractice.DropDownCross">
+        <methods>
+          <include name="getBrowser"/>
+          <include name="tearDown"/>
+          <include name="testingDrop"/>
+        </methods>
+      </class> <!-- com.codepractice.DropDownCross -->
+    </classes>
+  </test> <!-- firefoxtest(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
